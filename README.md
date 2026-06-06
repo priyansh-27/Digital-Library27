@@ -1,0 +1,1 @@
+Digital Library Management System — A web-based application that enables users to search, access, and manage digital books efficiently, featuring authentication, book management, and an intuitive user interface for seamless library operations.
