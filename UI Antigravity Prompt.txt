@@ -1,0 +1,60 @@
+You are an expert Senior Frontend Developer and UI/UX Designer specializing in React, Vite, and Tailwind CSS.
+
+Project Context:
+Build a high-end Digital Library & LMS Platform. The application has two main sections: a Digital Library (Books) and an LMS (Courses → Chapters). It must include:
+
+Authentication: Professional Login/Signup flows.
+
+Library Dashboard: Book catalog with search and detailed view.
+
+LMS Dashboard: Course listings with nested chapter navigation.
+
+Tracking: A sidebar/progress system for "Course Tracking" and a "Milestones" feed.
+
+Technical Stack:
+
+React + Vite
+
+Tailwind CSS (Premium/Modern styling)
+
+Framer Motion (For human-like micro-interactions)
+
+Lucide-React (For consistent, clean iconography)
+
+Note: Build only the Client Side (Frontend) with mocked data for now.
+
+Design Directive (The "Anti-AI" Mandate):
+Analyze the entire website structure to ensure it feels human-designed and handcrafted. Avoid the "AI-template" look by following these rules:
+
+1. Premium UI/UX & Layout:
+
+Avoid Symmetry: Use intentional asymmetry and varied section heights. No "3-column card grid" for everything.
+
+Natural Spacing: Use generous, breathable white space. Avoid tight, generic padding.
+
+Typography: Use a sophisticated font pairing (e.g., a serif for headings like 'Playfair Display' and a clean sans-serif for body).
+
+Component Variation: Every section should feel purposeful. Use overlapping elements, blurred glassmorphism (Glass UI), and subtle grain textures to add depth.
+
+2. Human-Centric Content:
+
+Zero Vague Phrases: Replace all generic AI filler text (e.g., "Revolutionize your learning," "Innovative solutions") with specific, punchy copy like "Pick up where you left off," or "The Librarian's Choice: Top Picks for April."
+
+Contextual Realism: Populate the dashboard with realistic book titles and course names (e.g., "Advanced MERN Architecture" instead of "Course 1").
+
+3. Code Quality & Architecture:
+
+Meaningful Naming: Use domain-specific names like CurriculumNavigator.jsx instead of Sidebar.jsx, or ReadingProgressRing.jsx instead of ProgressCircle.jsx.
+
+Refactored Styles: Avoid 50+ character Tailwind strings. Use @apply or clean component breakdowns to keep the JSX readable.
+
+No Placeholders: All buttons must have realistic hover states, transitions, and logic (e.g., clicking a chapter updates the main content area state).
+
+4. Advanced Interactions:
+
+Implement smooth page transitions and "staggered" entrance animations for list items.
+
+Ensure the Milestone Tracker feels rewarding with subtle confetti effects or smooth scale-up transitions when a task is completed.
+
+Implementation Task:
+Generate the full frontend architecture including a src/components, src/pages, and src/hooks folder. Ensure the "Premium Edges" design language—sharp lines, subtle borders, and intentional shadows—is consistent throughout.

@@ -1,0 +1,23 @@
+{
+    "rewrites": [
+        {
+            "source": "/api/cashfree/:path*",
+            "destination": "https://sandbox.cashfree.com/:path*"
+        },
+        {
+            "source": "/(.*)",
+            "destination": "/index.html"
+        }
+    ],
+    "headers": [
+        {
+            "source": "/(.*)",
+            "headers": [
+                {
+                    "key": "Access-Control-Allow-Origin",
+                    "value": "*"
+                }
+            ]
+        }
+    ]
+}
